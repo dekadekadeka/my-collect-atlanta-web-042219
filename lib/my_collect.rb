@@ -8,6 +8,7 @@ def my_collect(words)
       first << words[i].split(" ").first
     else
       up << words[i].split(" ").last.upcase
+    end
     i = i + 1
   end
   return first
