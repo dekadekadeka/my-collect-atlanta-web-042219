@@ -4,8 +4,10 @@ def my_collect(words)
   first = []
   while i < words.length
     yield words[i]
-#    first << words[i].split(" ").first
-    up << words[i].upcase
+    if words[i].size == 2
+      first << words[i].split(" ").first
+#    up << words[i].upcase
+    end
     i = i + 1
   end
 #  return first
