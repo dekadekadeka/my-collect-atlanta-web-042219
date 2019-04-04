@@ -14,3 +14,6 @@ def my_collect(words)
   return first
   return up
 end
+
+cobber = ["meow", "bintang", "citlali"]
+my_collect
