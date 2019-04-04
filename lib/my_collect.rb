@@ -5,7 +5,7 @@ def my_collect(words)
   while i < words.length
     yield words[i]
     up << words[i].upcase
-    first << words[i].split
+    first << words[i].split(" ")
     i = i + 1
   end
   return up
