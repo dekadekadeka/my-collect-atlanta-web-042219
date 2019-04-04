@@ -7,4 +7,3 @@ def my_collect(words)
   end
   return words
 end
-
