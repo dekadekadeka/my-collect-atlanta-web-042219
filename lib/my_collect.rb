@@ -1,7 +1,8 @@
 def my_collect(words)
   i = 0
   while i < words.length
-    yield words.upcase
+    words.upcase
+    yield words[i]
     i = i + 1
   end
   return words
