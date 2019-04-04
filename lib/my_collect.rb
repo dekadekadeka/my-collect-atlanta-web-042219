@@ -5,5 +5,5 @@ def my_collect(words)
     words[i]
     i = i + 1
   end
-  return words
+  return words.capitalize
 end
