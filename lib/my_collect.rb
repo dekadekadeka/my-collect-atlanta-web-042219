@@ -10,6 +10,6 @@ def my_collect(words)
     end
     i = i + 1
   end
-#  return first
+  return first
 #  return up
 end
