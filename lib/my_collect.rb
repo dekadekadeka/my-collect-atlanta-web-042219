@@ -11,5 +11,5 @@ def my_collect(words)
     i = i + 1
   end
 #  return first
-  return up
+#  return up
 end
