@@ -4,7 +4,7 @@ def my_collect(words)
   first = []
   while i < words.length
     yield words[i]
-    if words[i].size == 2
+    if words[i].length == 2
       first << words[i].split(" ").first
 #    up << words[i].upcase
     end
