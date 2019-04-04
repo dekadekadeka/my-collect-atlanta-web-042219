@@ -4,10 +4,10 @@ def my_collect(words)
   first = []
   while i < words.length
     yield words[i]
-    if " " in words[i]
+    if words[i].include? " "
       first << words[i].split(" ").first
     else
-      up << words[i].split(" ").last.upcase
+      up << words[i].upcase
     end
     i = i + 1
   end
