@@ -6,5 +6,5 @@ def my_collect(words)
     words_cap = words.upcase
     i = i + 1
   end
-  return words
+  return words_cap
 end
