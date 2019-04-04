@@ -7,10 +7,10 @@ def my_collect(words)
     if words[i].include? " "
       first << words[i].split(" ").first
     else
-      up << words[i].upcase
+      first << words[i].upcase
     end
     i = i + 1
   end
   return first
-  return up
+#  return up
 end
