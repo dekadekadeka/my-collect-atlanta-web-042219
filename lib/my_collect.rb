@@ -1,3 +1,5 @@
+require pry
+
 def my_collect(words)
   i = 0
   up = []
