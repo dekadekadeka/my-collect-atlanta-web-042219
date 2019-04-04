@@ -1,12 +1,9 @@
-require 'pry'
-
 def my_collect(words)
   i = 0
   up = []
   first = []
   while i < words.length
     yield words[i]
-    binding.pry
       first << words[i].split(" ").first
       up << words[i].split(" ").last.upcase
     i = i + 1
@@ -14,6 +11,3 @@ def my_collect(words)
   return first
   return up
 end
-
-cobber = ["meow", "bintang", "citlali"]
-my_collect(cobber)
